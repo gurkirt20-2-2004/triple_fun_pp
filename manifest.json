@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn to Dating",
+    "version": "1.0",
+    "description": "Transform LinkedIn into a dating platform experience",
+    "content_scripts": [{
+        "matches": ["*://*.linkedin.com/*"],
+        "js": ["content.js"]
+    }]
+}
